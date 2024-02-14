@@ -71,6 +71,10 @@ const  Quiz = () => {
         </div>
       ) : (
         <div className="result">
+           <p>
+            Correct Answers:<span> {result.correctAnswers}</span>
+          </p>
+          
           <h3>Letter of Love</h3>
 
           <p>
